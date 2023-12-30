@@ -1,0 +1,15 @@
+.titleNews{
+    background-color: red;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+.menu{
+    background-color: #2E5F9F;
+    padding: 10px;
+    color: white;
+}
+.menu div{
+    padding: 10px;
+    border-bottom: 1px solid gray  ;
+}

@@ -23,7 +23,6 @@ export default function Footer() {
             paddingLeft: "5px",
             marginRight: "auto",
             marginLeft: "auto",
-            width: "1199px",
           }}
         >
           <table

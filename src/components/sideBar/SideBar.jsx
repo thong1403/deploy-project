@@ -6,7 +6,7 @@ import image3 from "../../image/DuLichXuanLoc.jpg";
 
 export default function SideBar() {
   return (
-    <div className="my-5">
+    <div className="my-5 sideBar">
       <div className="titleNews">
         <h2>Tin Nổi Bật</h2>
       </div>

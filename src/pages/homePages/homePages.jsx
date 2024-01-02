@@ -1,11 +1,10 @@
 import "./HomePage.css";
 import image from "../../image/z4042263610199_ac6e69bf6f323b5fcf7a9b2df33b74de.jpg";
-import SideBar from "../../components/sideBar/SideBar";
 
 const HomePage = () => {
   return (
     <div className="my-5 row">
-      <div className="col-9 home-page">
+      <div className="home-page">
         <div className="divNewsTitle">
           <h2 className="mt-5 mb-5">
             Tin Tức - <span>Sự Kiện</span>
@@ -391,9 +390,6 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="col-3 side-bar">
-        <SideBar/>
       </div>
     </div>
   );

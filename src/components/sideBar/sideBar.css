@@ -13,3 +13,8 @@
     padding: 10px;
     border-bottom: 1px solid gray  ;
 }
+@media screen and (max-width: 500px) {
+    .sideBar{
+        display: none;
+    }
+  }

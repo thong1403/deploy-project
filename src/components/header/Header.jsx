@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Header.css";
 
 export default function Header() {
@@ -361,13 +362,13 @@ export default function Header() {
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link active" href="/calendar">
-                              Lịch Làm Việc
+                            <a class="nav-link active" href="/promotional-media">
+                              Truyền thông cổ động
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link active" href="/contact">
-                              Liên Hệ Tư Vấn
+                            <a class="nav-link active" href="/public-art">
+                              Nghệ thuật quần chúng
                             </a>
                           </li>
                           <li class="nav-item">
@@ -375,11 +376,15 @@ export default function Header() {
                               Tin Tức Sự Kiện
                             </a>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" href="/notification">
-                              Thông Báo
-                            </a>
-                          </li>
+                          <NavDropdown title="Lưu động" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="#action/3.1">
+                              Tuyên truyền lưu động
+                            </NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">
+                              Chiếu phim lưu động
+                            </NavDropdown.Item>
+                            
+                          </NavDropdown>
                         </ul>
                       </div>
                     </div>

@@ -1,0 +1,21 @@
+.card-movie-content{
+    align-items: center;
+    border-bottom: 2px solid rgb(211, 209, 209);
+}
+.card-movie-content button{
+    border: none;
+    color: #01776B;
+    font-size: 15px;
+}
+.title{
+    color: red;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.see-more-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+    margin-left: 1%;
+}
